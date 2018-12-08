@@ -16,7 +16,7 @@ public class ProgramEntry {
         for (int i = 0; i < listStartTime.length; i++) {
             Thread.sleep(5000);
             System.out.println(
-                    InterbankNegotiableCertificatesOfDeposit.getDownloadIBNCD("", "", "402880e5438a816001438a833adf0008", listStartTime[i], listEndTime[i], "0", "/home/zhangyibin/下载/", listStartTime[i] + listEndTime[i])
+                    InterbankNegotiableCertificatesOfDeposit.getDownloadIBNCD("", "", "402880e5438a816001438a833adf0008", listStartTime[i], listEndTime[i], "0", "/home/zhangyibin/下载/", listStartTime[i] + "~" + listEndTime[i])
             );
 
         }
