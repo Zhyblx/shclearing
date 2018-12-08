@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7029bb-3b40-485b-8082-a7fb42d44409" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/zqgz/ProgramEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,45 +17,55 @@
     <session id="494124100">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="885" />
-          <entry key="Markdown" value="506" />
+          <entry key="JAVA" value="1268" />
+          <entry key="Markdown" value="525" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/zqgz/InterbankNegotiableCertificatesOfDepositTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="120">
+              <caret line="8" column="188" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="188" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/zqgz/ProgramEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1880">
-                <caret line="127" selection-start-line="127" selection-end-line="127" />
+              <first_editor relative-caret-position="590">
+                <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -75,6 +87,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>fileName</find>
+      <find>\</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/test/zqgz/InterbankNegotiableCertificatesOfDepositTest.java" />
         <option value="$PROJECT_DIR$/src/loggingtool/LogFile.java" />
         <option value="$PROJECT_DIR$/src/cpgz/zqjqysp/zqgz/InterbankNegotiableCertificatesOfDeposit.java" />
+        <option value="$PROJECT_DIR$/src/test/zqgz/ProgramEntry.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -100,47 +114,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shclearing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shclearing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shclearing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shclearing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shclearing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shclearing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zqgz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shclearing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shclearing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="loggingtool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shclearing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shclearing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="zqgz" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544255781069" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544269781952" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -158,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProgramEntry">
     <configuration name="InterbankNegotiableCertificatesOfDepositTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.zqgz.InterbankNegotiableCertificatesOfDepositTest" />
       <module name="shclearing" />
@@ -172,8 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProgramEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.zqgz.ProgramEntry" />
+      <module name="shclearing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.zqgz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.InterbankNegotiableCertificatesOfDepositTest" />
+      <item itemvalue="Application.ProgramEntry" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProgramEntry" />
         <item itemvalue="Application.InterbankNegotiableCertificatesOfDepositTest" />
       </list>
     </recent_temporary>
@@ -205,7 +200,7 @@
       <window_info id="DB Browser" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32886904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39791358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,22 +247,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/zqgz/InterbankNegotiableCertificatesOfDepositTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="188" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/zqgz/ProgramEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1880">
-            <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <first_editor relative-caret-position="590">
+            <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/zqgz/InterbankNegotiableCertificatesOfDepositTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
