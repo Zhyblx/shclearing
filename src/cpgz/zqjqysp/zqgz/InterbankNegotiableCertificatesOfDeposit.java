@@ -37,10 +37,10 @@ public class InterbankNegotiableCertificatesOfDeposit {
         try {
             URL url = new URL(REQUESTURL);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            //设置链接超时,时间为2分钟;
-            conn.setConnectTimeout(120000);
-            //设置读取超时，时间为2分钟
-            conn.setReadTimeout(120000);
+            //设置链接超时,时间为3分钟;
+            conn.setConnectTimeout(180000);
+            //设置读取超时，时间为3分钟
+            conn.setReadTimeout(180000);
             //防止屏蔽程序抓取而返回403错误
             conn.setRequestProperty("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36");
             //设置Cookie
@@ -91,6 +91,7 @@ public class InterbankNegotiableCertificatesOfDeposit {
         } catch (Exception e) {
             status = startTime + "~" + endTime + ":下载失败;";
             System.err.println(status);
+            //System.err.print(startTime + "~" + endTime + ":下载失败;");
             //e.printStackTrace();
 
         }
@@ -101,7 +102,7 @@ public class InterbankNegotiableCertificatesOfDeposit {
      * 从输入流中获取字节数组
      *
      * @param inputStream
-     * @return
+     * @return 字节数组
      * @throws IOException
      */
     private static byte[] readInputStream(InputStream inputStream) throws IOException {
